@@ -2,7 +2,6 @@
 # https://edabit.com/challenge/7rK6mmmGMDNN8QvBd
 
 require 'minitest/autorun'
-require 'byebug'
 
 def cap_to_front(str)
   return str if str == str.upcase
